@@ -1,0 +1,51 @@
+.bannerWrapper {
+  width: 680px;
+  height: 700px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -285px;
+  border-radius: 10% 40% / 15%;
+  box-shadow: -2px 2px 10px #450b0b;
+  overflow: hidden;
+  background-image: url("../../assets/images/action.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .bannerWrapper {
+    display: none;
+  }
+}
+
+.svg {
+  font-family: "Josefine Sans";
+}
+
+.svgText {
+  stroke: #fb737333;
+  stroke-width: 2px;
+  transition: stroke-dasharray 7s ease-in-out, stroke-dashoffset 7s ease-in-out;
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  font-family: "Josefine Sans", sans-serif;
+  font-weight: 600;
+  font-size: 190px;
+}
+
+@media screen and (max-width: 990px) {
+  .svgText {
+    font-size: 130px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .svgText {
+    font-size: 80px;
+  }
+}
+
+.visible {
+  stroke-dashoffset: 0;
+}

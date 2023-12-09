@@ -1,0 +1,17 @@
+.logo {
+    width: 48px;
+    height: 48px;
+    margin: 0 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #3a1212;
+}
+
+.navLinkActive {
+    text-decoration: none;
+    color: #3a1212;
+    font-weight: 700;
+}
+
